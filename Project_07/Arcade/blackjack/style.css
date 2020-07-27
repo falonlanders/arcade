@@ -1,0 +1,80 @@
+body {
+  background-image: url("https://www.99images.com/download-image/160631/2484x1398");
+  background-repeat: none;
+  background-size: auto;
+}
+
+#deal {
+  font-size: 35px;
+  background-color: transparent;
+  color: rgb(157, 124, 184);
+  background-color: rgb(43, 37, 80);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Amatic SC", cursive;
+  transition-duration: 0.4s;
+}
+
+#stand {
+  font-size: 35px;
+  background-color: transparent;
+  color: rgb(157, 124, 184);
+  background-color: rgb(43, 37, 80);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Amatic SC", cursive;
+  transition-duration: 0.4s;
+}
+
+#hit {
+  font-size: 35px;
+  background-color: transparent;
+  color: rgb(157, 124, 184);
+  background-color: rgb(43, 37, 80);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Amatic SC", cursive;
+  transition-duration: 0.4s;
+}
+
+#deal:hover {
+  text-shadow: 1px 1px 1px rgb(43, 37, 80);
+  box-shadow: 0 10px 15px 0 rgb(43, 37, 80);
+  background-color: rgb(225, 198, 255);
+  color: rgb(31, 1, 65);
+}
+
+#stand:hover {
+  text-shadow: 1px 1px 1px rgb(43, 37, 80);
+  box-shadow: 0 10px 15px 0 rgb(43, 37, 80);
+  background-color: rgb(225, 198, 255);
+  color: rgb(31, 1, 65);
+}
+
+#hit:hover {
+  text-shadow: 1px 1px 1px rgb(43, 37, 80);
+  box-shadow: 0 10px 15px 0 rgb(43, 37, 80);
+  background-color: rgb(225, 198, 255);
+  color: rgb(31, 1, 65);
+}
+
+section {
+  justify-content: center;
+  text-align: center;
+}
+
+footer {
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+}

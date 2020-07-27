@@ -1,0 +1,51 @@
+body {
+    font-family: 'Amatic SC', cursive;
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/06/minimalist-desktop-3.jpg");
+    background-repeat: no-repeat;
+}
+
+
+h1 {
+    font-size: 75px;
+    text-shadow: 1px 1px lightsalmon;
+    color: rgb(31, 26, 63);
+}
+
+div {
+    list-style-type: none;
+    font-size: 50px;
+}
+
+section {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+}
+
+a:link {
+    color: lightsalmon;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: lightsalmon;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: darkslateblue;
+    background-color: lightsalmon
+}
+  
+a:active {
+    color: lightsalmon;
+}
+

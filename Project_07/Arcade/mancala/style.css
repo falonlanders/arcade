@@ -1,0 +1,157 @@
+body {
+  background-color: whitesmoke;
+  color: lightgoldenrodyellow;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Major Mono Display', monospace;
+  background-image: url(http://avante.biz/wp-content/uploads/Minimalist-Nature-Wallpapers/Minimalist-Nature-Wallpapers-005.jpg);
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 2px 2px lightslategray;
+}
+
+.image {
+  width: 30px;
+  height: 30px;
+}
+
+#player1score { /*score 1*/
+  font-size:25px;
+  float: left;
+  color:lightsalmon
+}
+
+#player2score { /*score 2*/
+  font-size: 25px;
+  float: right;
+  color: lightsalmon;
+}
+
+#player1 {
+  font-size: 30px;
+  text-align: center;
+  color: lightgoldenrodyellow;
+}
+
+#player2 {
+  font-size: 30px;
+  text-align: center;
+  color: lightgoldenrodyellow;
+}
+
+.newgame {
+  font-size: 35px;
+  background-color: transparent;
+  color: lightsalmon;
+  background-color: lightgoldenrodyellow;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Amatic SC', cursive;
+  transition-duration: 0.4s;
+}
+
+.newgame:hover {
+  text-shadow: 1px 1px 1px lightsalmon;
+  box-shadow: 0 10px 15px 0 rgb(53, 0, 0);
+  background-color: lightsalmon;
+  color: rgb(53, 0, 0);
+}
+
+.board { /*gameboard*/
+  box-sizing: border-box;
+  display: flex;
+  border: 10px solid lightsalmon;
+  width: 1000px;
+  height: 300px;
+  border-radius: 90px;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centerbutton {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alignplayers {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+#board1 { /*one*/
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  margin: 200px 0 0 150px;
+}
+
+#board2 { /*two*/
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0 0 150px;
+}
+
+.pit { 
+  width: 85px;
+  height: 70px;
+  border: 2px solid lightsalmon;
+  border-radius: 45%;
+  display: inline-block;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 0 15px;
+  color: rgb(53, 0, 0);
+  font-size: 25px;
+}
+
+#pit13 { 
+  margin: 40px 10px 0 25px;
+  width: 80px;
+  height: 200px;
+  border: 2px solid lightsalmon;
+  background-color: lightgoldenrodyellow;
+  border-radius: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pit6 { 
+  margin: 40px 10px 0 750px;
+  width: 80px;
+  height: 200px;
+  border: 2px solid lightsalmon;
+  background-color: lightgoldenrodyellow;
+  border-radius: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}

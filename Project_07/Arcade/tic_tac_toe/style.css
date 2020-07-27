@@ -1,0 +1,76 @@
+/*styling for page*/
+body {
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/06/minimalist-desktop-11.jpg");
+    font-family: 'Amatic SC', cursive;
+}
+
+/*styling for page heading*/
+h1 {
+    font-size: 75px;
+    align-items: center;
+    text-align: center;
+    text-shadow: 2px 2px #196775;
+}
+
+/*styling for restart button*/
+section {
+    text-align: center;
+}
+
+/*styling for cells/board*/
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 600px;
+    margin: 50px auto;
+}
+
+/*styling for all cells*/
+.cell {
+    font-family: 'Major Mono Display', monospace;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 0 1px #196775;
+    border: 1px solid #196775;
+    font-size: 150px;
+    color: rgb(0, 35, 46);
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*styling for restart button*/
+.restart {
+    transition-duration: 0.4s;
+    background-color: lightsteelblue;
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    border: none;
+    text-decoration: none;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #196775;
+    box-shadow: 0 10px 15px 0 #196775;
+    outline: none;
+
+}
+
+/*styling for restart button on hover*/
+.restart:hover {
+    box-shadow: 0 10px 15px 0 rgb(43, 43, 43);
+    background-color: rgb(19, 114, 109);
+    color: black;
+}
+
+/*styling for footer*/
+footer {
+    font-size: 20px;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+

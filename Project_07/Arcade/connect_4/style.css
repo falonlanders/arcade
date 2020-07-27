@@ -1,0 +1,88 @@
+/*general page styling*/
+body {
+  background-image: url("https://images.hdqwalls.com/wallpapers/minimalist-landscape-to.jpg");
+  font-family: "Amatic SC", cursive;
+}
+
+/*page heading styling*/
+h1 {
+  font-size: 75px;
+  align-items: center;
+  text-align: center;
+  text-shadow: 2px 2px #412846;
+  color: white;
+}
+
+/*help with centering*/
+section {
+  text-align: center;
+  justify-content: center;
+}
+
+/*styling for button*/
+button {
+  transition-duration: 0.4s;
+  background-color: rgb(78, 29, 214);
+  font-family: "Amatic SC", cursive;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  border: none;
+  text-decoration: none;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px rgb(24, 0, 70);
+  box-shadow: 0 10px 15px 0 rgb(24, 0, 70);
+  outline: none;
+}
+
+/*styling for button hover*/
+button:hover {
+  box-shadow: 0 10px 15px 0 rgb(24, 0, 70);
+  background-color: rgb(192, 128, 252);
+  color: rgb(24, 0, 70);
+}
+
+/*styling for footer*/
+footer {
+  font-size: 20px;
+  bottom: 0;
+  width: 100%;
+  height: 0%;
+  color: rgb(218, 198, 255);
+  padding-top: 15px;
+}
+
+/*styling for connect 4 board*/
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  width: 600px;
+  margin: 50px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*styling for individual cells on board*/
+.cell {
+  font-family: "Major Mono Display", monospace;
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(218, 198, 255);
+  font-size: 20px;
+  color: rgb(24, 0, 70);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  background-position: center;
+}
+
+.cell.deer {
+  background-image: url("https://i.ya-webdesign.com/images/reindeer-black-antlers-png-picture-8.png");
+}
+.cell.tree {
+  background-image: url("https://www.pngkey.com/png/full/24-242635_white-pine-tree-clipart-clipart-free-pine-tree.png");
+}
